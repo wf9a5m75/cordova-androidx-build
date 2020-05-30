@@ -50,9 +50,9 @@ This plugin is written in `Gradle` script, which **works on your PC or cloud bui
 
 |                                  | cordova-plugin-androidx-adapter | cordova-androidx-build    |
 |----------------------------------|---------------------------------|---------------------------|
-| `support library` -> `AndroidX`  |  :heavy_check_mark:             | :heavy_check_mark:        |
-| `support library` <- `AndroidX`  |  :x:                            | :heavy_check_mark:        |
-| work on PC                       |  :heavy_check_mark:             | :heavy_check_mark:        |
-| work on cloud services           |  :x:                            | :heavy_check_mark:        |
+| `support library` -> `AndroidX`  |  :white_check_mark:             | :white_check_mark:        |
+| `support library` <- `AndroidX`  |  :x:                            | :white_check_mark:        |
+| work on PC                       |  :white_check_mark:             | :white_check_mark:        |
+| work on cloud services           |  :x:                            | :white_check_mark:        |
 | when execute the process         |  after `cordova prepare`        | gradle sync               |
 | mechanism                        |  `cordova hook script`          | gradle                    |
