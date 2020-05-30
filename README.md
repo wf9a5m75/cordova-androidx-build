@@ -4,7 +4,7 @@
 
 Google introduced [AndroidX](https://developer.android.com/jetpack/androidx/migrate) libraries which replaces old [Android support libraries](https://developer.android.com/topic/libraries/support-library/index).
 
-Since Cordova will introduce `AndroidX` from `Cordova 9`, however your plugin needs to support both `with AndroidX` and `without AndroidX`.
+Since Cordova will introduce `AndroidX` from `cordova-android@9`, however your plugin needs to support both `with AndroidX` and `without AndroidX`.
 
 This plugin migrates user's project code to `AndroidX` automatically when your plugin code is build at the time.
 If the project does not specify `AndroidX`, this plugin migrates the user's project code migrates `Android Support Library`.
@@ -20,7 +20,13 @@ $ cordova plugin add cordova-androidx-build
 Or use this plugin as dependency in your `plugin.xml`
 
 ```xml
-<dependency id="cordova-androidx-build" version="1.0.0">
+<?xml version='1.0' encoding='utf-8'?>
+<plugin ...>
+  <platform name="android">
+    ...
+    <dependency id="cordova-androidx-build" />  <-- Add this line
+  </platform>
+</plugin>
 ```
 
 ## How does this plugin work?
