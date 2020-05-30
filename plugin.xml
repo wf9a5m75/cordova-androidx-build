@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-androidx-build" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-androidx-build" version="1.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
   <name>cordova-androidx-build</name>
-  <repo>https://github.com/wf9a5m75/cordova-androidx-build</repo>
+  <repo>https://github.com/wf9a5m75/cordova-androidx-build.git</repo>
   <issue>https://github.com/wf9a5m75/cordova-androidx-build/issues</issue>
 
   <description>This plugin helps to build your app with `AndroidX library`. If the environment does not support `AndroidX library`, put back the application code to `Android Support library`.</description>
