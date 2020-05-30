@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-androidx-build" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-androidx-build" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
   <name>cordova-androidx-build</name>
   <repo>https://github.com/wf9a5m75/cordova-androidx-build</repo>
   <issue>https://github.com/wf9a5m75/cordova-androidx-build/issues</issue>
@@ -13,6 +13,8 @@
 
   <platform name="android">
     <framework src="src/android/cordova-androidx-build.gradle" custom="true" type="gradleReference"/>
+      <hook type="before_prepare" src="src/android/uninstall_conflict_plugin.js"/>
+      <hook type="before_plugin_ls" src="src/android/uninstall_conflict_plugin.js"/>
   </platform>
 
 </plugin>
