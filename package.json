@@ -1,0 +1,31 @@
+{
+  "name": "cordova-androidx-build",
+  "version": "0.0.1",
+  "description": "This plugin helps to build your app with AndroidX library. ",
+  "cordova": {
+    "id": "cordova-androidx-build",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mapsplugin/cordova-plugin-googlemaps.git"
+  },
+  "keywords": [
+    "google",
+    "maps",
+    "geo",
+    "google maps",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser"
+  ],
+  "author": "Masashi Katsumata",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mapsplugin/cordova-plugin-googlemaps/issues"
+  },
+  "homepage": "https://github.com/mapsplugin/cordova-plugin-googlemaps"
+}
