@@ -20,7 +20,7 @@ $ cordova plugin add cordova-androidx-build
 Or use this plugin as dependency in your `plugin.xml`
 
 ```xml
-<dependency id="cordova.androidx.build" version="1.0.0">
+<dependency id="cordova-androidx-build" version="1.0.0">
 ```
 
 ## How does this plugin work?
