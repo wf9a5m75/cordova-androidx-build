@@ -5,8 +5,6 @@
   <issue>https://github.com/wf9a5m75/cordova-androidx-build/issues</issue>
 
   <description>This plugin helps to build your app with `AndroidX library`. If the environment does not support `AndroidX library`, put back the application code to `Android Support library`.</description>
-  <repo></repo>
-  <issue></issue>
   <author>Masashi Katsumata</author>
 
   <license>Apache-2.0</license>
