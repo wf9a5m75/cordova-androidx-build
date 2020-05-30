@@ -2188,10 +2188,8 @@ android {
     project.ext.set('cordova.androidx.build', true)
 
     def hasUseAndroidX = project.ext.has('android.useAndroidX')
-    def hasEnableJetifier = project.ext.has('android.enableJetifier')
-    def useAndroidX = hasUseAndroidX && hasEnableJetifier &&
-            'true' == project.ext.get('android.useAndroidX') &&
-            'true' == project.ext.get('android.enableJetifier')
+    def useAndroidX = hasUseAndroidX &&
+            'true' == project.ext.get('android.useAndroidX')
 
     //---------------------------
     // Replace all source code

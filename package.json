@@ -13,19 +13,13 @@
     "url": "https://github.com/mapsplugin/cordova-plugin-googlemaps.git"
   },
   "keywords": [
-    "google",
-    "maps",
-    "geo",
-    "google maps",
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios",
-    "cordova-browser"
+    "cordova",
+    "androidx"
   ],
   "author": "Masashi Katsumata",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/mapsplugin/cordova-plugin-googlemaps/issues"
+    "url": "https://github.com/wf9a5m75/cordova-androidx-build/issues"
   },
-  "homepage": "https://github.com/mapsplugin/cordova-plugin-googlemaps"
+  "homepage": "https://github.com/wf9a5m75/cordova-androidx-build"
 }
