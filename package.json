@@ -1,6 +1,6 @@
 {
   "name": "cordova-androidx-build",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This plugin helps to build your app with AndroidX library. ",
   "cordova": {
     "id": "cordova-androidx-build",
