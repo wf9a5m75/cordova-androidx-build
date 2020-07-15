@@ -49,9 +49,9 @@ That's why this plugin has two migrates mode:
 This plugin also migrates your plugin code to `AndroidX`.
 
 However `cordova-plugin-androidx-adapter` works on only your PC, because it uses `Cordova Hook Script` mechanism.
-Because of this, `cordova-plugin-androidx-adapter` not cloud build services, such as `PhoneGap Build`.
+Because of this, `cordova-plugin-androidx-adapter` does **NOT** work on cloud build services, such as `PhoneGap Build`.
 
-This plugin is written in `Gradle` script, which **works on your PC or cloud build services**.
+In order to solve this problem, this plugin is written by `Gradle` script, which **works on your PC or cloud build services**.
 
 
 |                                  | cordova-plugin-androidx-adapter | cordova-androidx-build    |
